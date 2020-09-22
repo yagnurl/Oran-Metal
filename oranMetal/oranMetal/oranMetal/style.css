@@ -1,0 +1,437 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: #090909;
+    
+   
+}
+body {
+    overflow-x: hidden;
+}
+
+div ul li a {
+    list-style-type: none;
+}
+
+.noListStyle {
+    list-style-type: none;
+}
+
+/* ****************************************************NAVBAR SECTION STARTS ************************************************* */
+
+/*@keyframes brandColor {
+    from {
+        color: #f66434;
+    }
+    to {
+        color: lightsalmon;
+    }
+}*/
+
+#brand {
+    position: relative;
+    font-size: 30px;
+    font-family: 'Gugi', cursive;
+    color: #f66434;
+    padding-left: 3%;
+   /* animation-name: brandColor;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.2, 0.2, 0.2, 0.2);
+    animation-iteration-count: infinite;*/
+}
+
+#brandFooter {
+    color: #f66434;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Gugi', cursive;
+  
+}
+.navbar {
+    background: #000;
+    opacity: 70%;
+}
+
+.nav-link {
+    color: honeydew;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+#navbarDropdown {
+    color: white;
+}
+
+.dropdown-item {
+    letter-spacing: 0.1cm;
+    font-weight: 900;
+    
+}
+
+ .itemAlign{
+    left: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    
+}
+#phoneNo {
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #f66434;
+    font-size: 20px;
+    list-style-type: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+#phoneNo:hover {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 20px;
+    list-style-type: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.whatsappIcon {
+    
+    position: relative;
+    right: 10%;
+    top: 5%;
+    color: #f0f0f0;
+}
+
+.whatsappIcon:hover {
+    position: relative;
+    right: 10%;
+    top: 5%;
+    color: #f0f0f0;
+}
+
+.locationIcon {
+    position: relative;
+    right: 8%;
+    top: 5%;
+    color: #f0f0f0;
+}
+
+.locationIcon:hover {
+    position: relative;
+    right: 8%;
+    top: 5%;
+    color: #f0f0f0;
+}
+
+.mailIcon {
+    position: relative;
+    right: 8%;
+    top: 5%;
+    color: #f0f0f0;
+}
+
+.locationIcon:hover {
+    
+    position: relative;
+    right: 8%;
+    top: 5%;
+    color: #f0f0f0;
+}
+
+/* ****************************************************NAVBAR SECTION ENDS  ************************************************* */
+
+/* DROPDOWN RESPONSIVE NAVBAR*/
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #f0f0f0;
+    }
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+        color: #f0f0f0;
+    }
+}
+
+/***************************************+ DROPDOWN RESPONSIVE NAVBAR ENDS*******************************/
+
+/**************************************** DEMİR BÜKÜM SECTION ******************************/
+.first-image {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background: url(./img/back7.2.jpg) no-repeat center;
+    /*background-image: linear-gradient(rgba(255,255,255,0.2), rgba(1, 0, 0, 1)), url("./img/back7.2.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(-50%, -50);
+    overflow: hidden;
+    text-align: center;
+    color: #f0f0f0;
+    font-weight: 500;
+ 
+}
+
+.container1 h1 {
+    font-size: 80px;
+    letter-spacing: 1.5px;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    margin: 10;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    color: #f66434;
+}
+.demirBukumText {
+    font-weight: 500;
+    color: #f0f0f0;
+    
+   font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    text-transform: none;
+    padding-left: 5%;
+  
+    
+}
+
+.buttonIncele {
+    
+    position: relative;
+    left: 5%;
+   
+}
+
+.btn-outline-light, .btn-outline-light:active, .btn-outline-light:visited {
+    border-color: #f66434 !important;
+   
+}
+.btn-outline-light:hover {
+    background-color: #f66434 !important;
+}
+
+.btn-outline-light{
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.hr-short {
+    border: 1px solid #f66434;
+    width: 25%;
+    position: absolute;
+    float: left;
+    left: 4%;
+}
+
+
+.container1 ul {
+    padding-top: 25px;
+    position: relative;
+    float: left;
+    color: #f0f0f0;
+}
+
+.btn {
+    float: left;
+}
+
+.hr-new {
+   
+   
+    position: absolute;
+    border: 0.5cm;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(107, 44, 23), rgb(246, 100, 52), rgb(107, 44, 23));
+    border-radius: 100%;
+}
+/**************************************** DEMİR BÜKÜM SECTION ENDS************************************************************/
+.second-image {
+    top: 1%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    /*background: url(./img/merdiven2.1.jpg) no-repeat center;*/
+    background-image: linear-gradient(rgba(33, 37, 37, 0.2), rgba(0, 0, 0, 1)), url("./img/about3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* **********************GALLERY SECTION ************************/
+
+.metalBaslik {
+    color: #f66434;
+    border-left: 5px solid #f66434;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 0.6cm;
+    font-size: 65px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 70vw !important;
+}
+
+.container-fluid {
+    margin-top: 5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    width: 70% !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .column {
+    width: auto;
+    overflow: hidden;
+    padding: 0.5%;
+    height: 10%;
+}
+
+.row .column img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top left;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.info {
+    /*background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("./img/about4.jpg");*/
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("./img/about4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background: url(./img/about4.jpg) no-repeat center; */
+    opacity: 70%;
+    background-size: cover;
+    object-fit: cover;
+    object-position: top left;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 5%;
+}
+
+.about {
+    right: 6%;
+    bottom: 15%;
+    position: absolute;
+    top: 20%;
+    /*background-color: grey;*/
+    text-align: start;
+    /*border: 2px solid #f0f0f0; */
+    font-family: 'Dosis', sans-serif;
+    color: #f0f0f0;
+}
+
+.biz {
+    text-transform: uppercase;
+    overflow: scroll;
+    position: relative;
+    top: 50%;
+    color: #f66434;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 0.6cm;
+    border-left: 5px solid #f66434;
+    padding-left: 2%;
+}
+
+.kimiz {
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-size: 70px;
+    font-weight: 200;
+    letter-spacing: 0.3cm;
+}
+
+.aboutText {
+    position: absolute;
+    float: left;
+    margin-top: 5%;
+    font-size: 25x;
+    letter-spacing: 2px;
+}
+
+/* FOOTER SECTION*/
+
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: #090909;
+    color: #f0f0f0;
+}
+
+.footer .location {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.footer .location:hover {
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer .location li {
+    list-style: none;
+    left: 0;
+}
+.footer .location i {
+    font-size: 18px;
+}
+
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+   
+    text-align: center;
+    font-size: 18px;
+}
+
+.by {
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.by:hover {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
