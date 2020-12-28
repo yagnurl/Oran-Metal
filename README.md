@@ -1,4 +1,4 @@
-[ORAN METAL:](https://www.oranbukummerdiven.com "ORAN METAL")
+[www.oranbukummerdiven.com](https://www.oranbukummerdiven.com "ORAN METAL")
 ###### Content:
 - main page that contains navbar, content with full width image and footer.
 - 7 subpages with product display product cards and image gallery.
